@@ -18,7 +18,7 @@
         text-align:center;
       }
       h2 {
-        color:#00BFFF;
+        color:IndianRed;
         text-align:center;
       }
       p {
@@ -30,33 +30,48 @@
       a {
         color:#00BFFF;
       }
+      .main_title {
+        font-family: fantasy;
+      }
+      .sub_title {
+        font-family:Times;
+      }
+      .vid_captions {
+        font-family: monospace;
+        font-size: 125%;
+      }
+      .sound_captions {
+        font-family:sans-serif;
+        font-size: 75%;
+        color: HotPink;
+      }
     </style>
   </head>
   <body>
-    <h1>Sights and sounds about your damn <i>body</i>.</h1>
+    <h1 class="main_title">Sights and sounds about your damn <i>body</i>.</h1>
     <hr>
-    <h2>Vids</h2>
+    <h2 class="sub_title">Vids</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/08QDu2pGtkc" frameborder="0" allowfullscreen></iframe>
-    <p>This is a classic.</p>
+    <p class="vid_captions">This is a classic.</p>
     <br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pPQAiTIxJ6g" frameborder="0" allowfullscreen></iframe>
-    <p>This one's about knee injuries. <i>Very</i> common.</p>
+    <p class="vid_captions">This one's about knee injuries. <i>Very</i> common.</p>
     <hr>
-    <h2>Sounds</h2>
+    <h2 class="sub_title">Sounds</h2>
     <audio controls>
       <source src="05 M.E..mp3" type="audio/mpeg"></source>
     </audio>
-    <p>This song is good for your heart</p>
+    <p class="sound_captions">This song is good for your heart</p>
     <br>
     <audio controls>
       <source src="07 Stop.mp3" type="audio/mpeg"></source>
     </audio>
-    <p>So is this one.</p>
+    <p class="sound_captions">So is this one.</p>
     <br>
     <audio controls>
       <source src="01 1 Thing.mp3" type="audio/mpeg"></source>
     </audio>
-    <p>And this one's good for your ass.</p>
+    <p class="sound_captions">And this one's good for your ass.</p>
     <hr>
     <a href="index.html">P&B</a>
   </body>
