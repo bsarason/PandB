@@ -1,0 +1,83 @@
+<!--
+1. Create a blog post detailing what a new member to your community might need to know to get up to
+  speed with the group.
+2. The blog post should have- each in its own <div>- a header area, a nav bar area, a content area,
+  and a footer area (with some contact info, disclaimer, etc).
+3. The content area should have multiple header and paragraph tags. Add some styles for each tag type.
+4. Give each <div> its own id attribute ("header", "nav", "content", and "footer"), and style each a
+  bit (maybe they each have a different background color).
+5. Add some generic <span> tags around bits of important text. Give each a class of "important", and
+  style them so that information stands out! Maybe a yellow background, red text, a heavier
+  font-weight and a slightly larger font-size
+6. Add some <span> tags around bits of un-important text. Give each a class of "nice-to-know", and
+  style that text a bit lighter and smaller.
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    </title>
+    <style>
+      #header {
+        background: darkslategray;
+        color:antiquewhite;
+      }
+      #nav {
+        background-color: antiquewhite;
+        color: darkslategray;
+      }
+      #content {
+        background-color: dimgray;
+        color: khaki;
+      }
+      #footer {
+        background: darkslategray;
+        color: antiquewhite;
+      }
+      .important {
+        background: yellow;
+        color: crimson;
+      }
+      .nice-to-know {
+        color:papayawhip;
+        font-size: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <p>Header Area</p>
+      <p>logo</p>
+    </div>
+    <div id="nav">
+      <p>Nav bar area</p>
+      <p><a href="index.html">P&B</a></p>
+      <p><a href="about_us.html">About us</a></p>
+      <p><a href="pb_media_page.html">Sights & sounds</a></p>
+    </div>
+    <div id="content">
+      <h1>Content area</h1>
+      <h4>Content header 1</h4>
+      <p>Content para 1.1</p>
+      <p>Content para 1.2</p>
+      <h4>Content header 2</h4>
+      <p><span class="important">Content</span> para 2.1</p>
+      <p>Content <span class="nice-to-know">para</span> 2.2</p>
+      <p>Content para 2.3</p>
+      <h4>Content header 3</h4>
+      <p><span class="nice-to-know">Content para</span> 3.1</p>
+      <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ol>
+      <p>Content para 3.2</p>
+    </div>
+    <div id="footer">
+        <p>Footer area</p>
+        <p>disclaimer</p>
+
+    </div>
+  </body>
+</html>
